@@ -9,7 +9,7 @@ load('inc_out_28JUN15.mat');
 % FEM = out(48); 
 
 % Color Plot
-plot_tor(1).n = 40; % Number of slats on cross section, 0 for no plot
+plot_tor(1).n = 39; % Number of slats on cross section, 0 for no plot
 plot_tor(1).LS = 44; % load step plotted
 plot_tor(1).PF = 1; % plot forces?
 plot_tor(1).plot_type = 1; % 1 = DCP, 2 = DF, 3 = UF, 4 = DWF, 5 = UWF 

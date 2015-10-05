@@ -83,7 +83,7 @@ for i=1:length(plot_tor)
             % Populate color matrices
             for k=1:size(U2,1)
                 if Connect(i,3) == 5
-                    % Populate color matrices
+                    %Populate color matrices
                     x_color0(k,:) = U2(k,1);
                     y_color0(k,:) = U2(k,2);
                     z_color0(k,:) = U2(k,3);
